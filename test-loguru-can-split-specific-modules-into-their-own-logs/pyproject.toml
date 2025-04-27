@@ -1,0 +1,9 @@
+[project]
+name = "test-loguru-can-split-specific-modules-into-their-own-logs"
+version = "0.1.0"
+description = "Test that loguru doesn't have to combine logs if we want some modules to be singled out"
+readme = "README.md"
+requires-python = "==3.8.15"
+dependencies = [
+  "loguru",
+]

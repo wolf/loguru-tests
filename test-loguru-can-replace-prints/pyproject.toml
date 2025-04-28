@@ -1,0 +1,9 @@
+[project]
+name = "test-loguru-can-replace-prints"
+version = "0.1.0"
+description = "We have a lot of print statements that be log calls"
+readme = "README.md"
+requires-python = ">=3.8.15"
+dependencies = [
+  "loguru",
+]

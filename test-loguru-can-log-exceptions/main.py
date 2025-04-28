@@ -5,7 +5,7 @@ import package
 
 def main():
     logger.debug("loguru message from main.py")
-    print("Hello from test-loguru-shares-output!")
+    print("Hello from test-loguru-can-log-exceptions!")
 
     package.write_important_output()
 

@@ -17,7 +17,7 @@ def main(loglevel: str):
     logger.critical("loguru CRITICAL message from main.py")
     logger.trace("loguru TRACE message from main.py")
     logger.success("loguru SUCCESS message from main.py")
-    print("Hello from test-loguru-shares-output!")
+    print("Hello from test-loguru-can-change-log-level!")
 
     package.write_important_output()
 

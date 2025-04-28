@@ -9,7 +9,7 @@ logger.add("package.log", filter="package")
 
 def main():
     logger.debug("loguru message from main.py")
-    print("Hello from test-loguru-writes-to-a-file!")
+    print("Hello from test-loguru-can-split-specific-modules-into-their-own-logs!")
 
     package.write_important_output()
 

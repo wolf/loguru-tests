@@ -2,7 +2,6 @@
 name = "test-loguru-works-with-threads"
 version = "0.1.0"
 description = "Test that loguru will do the right thing when called on two different threads (one being main)"
-readme = "README.md"
 requires-python = "==3.8.15"
 dependencies = [
   "loguru",

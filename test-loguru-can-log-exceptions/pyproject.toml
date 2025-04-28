@@ -2,7 +2,6 @@
 name = "test-loguru-can-log-exceptions"
 version = "0.1.0"
 description = "Test that loguru can tell us something about exceptions"
-readme = "README.md"
 requires-python = "==3.8.15"
 dependencies = [
   "loguru",

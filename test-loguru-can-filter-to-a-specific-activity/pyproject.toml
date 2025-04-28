@@ -1,0 +1,10 @@
+[project]
+name = "test-loguru-can-filter-to-a-specific-activity"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.8.15"
+dependencies = [
+  "loguru",
+  "typer",
+]

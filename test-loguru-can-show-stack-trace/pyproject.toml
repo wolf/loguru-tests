@@ -1,0 +1,9 @@
+[project]
+name = "test-loguru-can-show-stack-trace"
+version = "0.1.0"
+description = "Test that loguru will show the stack trace if necessary"
+readme = "README.md"
+requires-python = "==3.8.15"
+dependencies = [
+  "loguru",
+]

@@ -1,0 +1,14 @@
+[project]
+name = "test-loguru-can-be-tested"
+version = "0.1.0"
+description = "Test that we can use regular old pytest to see if we're doing the right logging"
+readme = "README.md"
+requires-python = "==3.8.15"
+dependencies = [
+  "logot",
+  "loguru",
+  "pytest",
+]
+
+[tool.pytest.ini_options]
+logot_capturer = "logot.loguru.LoguruCapturer"

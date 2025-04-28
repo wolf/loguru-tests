@@ -1,0 +1,8 @@
+[project]
+name = "test-loguru-can-mix-with-std-logging"
+version = "0.1.0"
+description = "We have to go in steps, so we'll need to mix existing (std) logging with loguru"
+requires-python = ">=3.8.15"
+dependencies = [
+  "loguru",
+]

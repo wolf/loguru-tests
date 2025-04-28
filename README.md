@@ -13,4 +13,6 @@ test, go into that directory, create and activate a virtual environment, and run
 - `uv sync`
 - `python main.py`
 
-If there are instructions specific to a given test, they will be given in a `README.md` in that directory.
+If there are instructions specific to a given test, they will be given in a `README.md` in that directory. The
+requirements for each test are in their `pyproject.toml` files; and for every one of them, the version of Python is
+pinned at 3.8.15, just like SiLOC (at least, at the moment).

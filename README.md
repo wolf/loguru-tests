@@ -29,3 +29,5 @@ Here are the individual "tests" arranged (roughly) from simplest to hardest:
 - test-loguru-can-show-stack-trace
 - test-loguru-can-be-tested
 - test-loguru-works-with-threads
+- test-loguru-can-mix-with-std-logging
+- test-loguru-can-replace-prints
